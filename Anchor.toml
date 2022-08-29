@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+myepicproject = "C2NsE69sQst7joNsy2pK2kvDmrKdJdPAwojLaj7kNycB"
+
+[registry]
+url = "https://api.devnet.solana.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/madha/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepicproject.js"
